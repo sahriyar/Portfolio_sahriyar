@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="shortcut icon" type="image" href="./icon/bag.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--bootstrap  link-->
+    <!--icons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--icons-->
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+    <!--fonts-->
+
+</head>
+<body>
+    <!--navbar top-->
+    <nav class="navbar navbar-expand-sm" id="navbar-top">
+        <div class="container">
+            <h5>E shoping@info.com</h5>
+            <div class="rsc">
+                <h5><button id="btn3"><a href="#">Login</a></button> <button id="btn3"><a href="#">Sign Up</a></button></h5>
+                <div class="icons">
+                    <i><img src="./icon/facebook.png" alt="" style="width: 20px;"></i>
+                    <i><img src="./icon/twitter.png" alt="" style="width: 20px;"></i>
+                    <i><img src="./icon/google.png" alt="" style="width: 20px;"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar top-->
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md" id="navbar-color">
+        <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#" id="navbar-logo"><i><img src="./icon/bag.png" alt=""></i>Online Shop</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span><i><img src="./icon/menue.png" alt="" style="width: 30px;"></i></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <!--dropdown-->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                    Categroy
+                </a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">T-shirts</a>
+                    <a href="#" class="dropdown-item">Shoes</a>
+                    <a href="#" class="dropdown-item">Hoodies</a>
+                    <a href="#" class="dropdown-item">Cap</a>
+                    <a href="#" class="dropdown-item">Pants</a>
+                    <a href="#" class="dropdown-item">Laptop</a>
+                    <a href="#" class="dropdown-item">Keybord</a>
+                    <a href="#" class="dropdown-item">Cameras</a>
+                    <a href="#" class="dropdown-item">Computer Mouse</a>
+                    <a href="#" class="dropdown-item">Watch</a>
+                    <a href="#" class="dropdown-item">iPad & tablets</a>
+                    <a href="#" class="dropdown-item">T-shirts</a>
+                    <a href="#" class="dropdown-item">T-shirts</a>
+                    
+                </div>
+            </li>
+            <!--dropdown-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+          </ul>
+        </div>
+        <div class="new-icons">
+            <i class="bx bxs-cart"></i>
+            <i class="bx bxs-heart"></i>
+            <i class="bx bxs-user"></i>
+      </div>
+    </div>
+      </nav>
+    <!--navbar-->
+
+    <!--home content-->
+    <div class="hc">
+        <div class="container">
+            <div class="home-content">
+                <div class="content">
+                    <h1>Best Deal</h1>
+                    <h1>Awesome Product</h1>
+                    <p>Lorem  ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga?</p>
+                    <div id="btn1"><button>Shop Now</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--home content-->
+
+    <!--banner-->
+    <div class="banner">
+        <div class="banner-content">
+            <h1>UP TO 50% OFF</h1>
+            <h1>Best Deal</h1>
+            <h1>Product <span class="change-content"></span></h1>
+            <div id="btn1"><button>SHOP NOW</button></div>
+
+            <div class="search-box">
+                <input type="text" class="search-txt" placeholder="Search">
+                <a href="#" class="search-btn">
+                    <I class="bx bx-search"></I>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--banner-->
+
+    <!--card content-->
+    <div class="container">
+        <h1 class="text-center" style="margin-top: 30px;">PRODUCTS</h1>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p1.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Formal Bhue Shirt</h5>
+                        <p class="text-center">$45.99</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p2.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Dark Black T-Shirt</h5>
+                        <p class="text-center">$200.50</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p3.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Hoodies For Men</h5>
+                        <p class="text-center">$400.67</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p4.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Party Suit For Men</h5>
+                        <p class="text-center">$500.50</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row"  style="margin-top: 30px;">
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p5.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Sport Shoes</h5>
+                        <p class="text-center">$500.19</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p6.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Girls Hand Bag</h5>
+                        <p class="text-center">$60.50</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p7.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Sport Shoes</h5>
+                        <p class="text-center">$1000.00</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3  py-md-0">
+                <div class="card">
+                    <img src="./image/p8.jpg" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Girls Heel Shoes</h5>
+                        <p class="text-center">$100.50</p>
+                        <div class="star text-center">
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                            <i class="bx bxs-star checked"></i>
+                        </div>
+                        <div id="btn2"><button>Add Cart</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--card content-->
+
+    <!--all category-->
+    <div class="container">
+        <div class="all-category">
+        <h1 class="text-center" style="font-weight: bold; margin-top: 50px;">All Category</h1>
+        <button><a href="#" class="nav-link">T-Shirt</a></button>
+        <button><a href="#" class="nav-link">Shoes</a></button>
+        <button><a href="#" class="nav-link">Hoodies</a></button>
+        <button><a href="#" class="nav-link">Cap</a></button>
+        <button><a href="#" class="nav-link">Pants</a></button>
+        <button><a href="#" class="nav-link">Laptop</a></button>
+        <button><a href="#" class="nav-link">Keybord</a></button>
+        <button><a href="#" class="nav-link">Cameras</a></button>
+        <button><a href="#" class="nav-link">Computer Mouse</a></button>
+        <button><a href="#" class="nav-link">iPad & tablets</a></button>
+    </div>
+    </div>
+    <!--all category-->
+
+    <!--slider-->
+    <div class="container" id="slider">
+        <div id="carouselExampleControls" class="carousel-slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide1.png" alt=""></div>
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide2.jpg" alt=""></div>
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide3.jpg" alt=""></div>
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide4.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide5.jpg" alt=""></div>
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide6.jpg" alt=""></div>
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide7.jpg" alt=""></div>
+                        <div class="col-3"><img class="d-block w-100" src="./image/slide8.jpg" alt=""></div>
+                    </div>
+                </div>
+                <a href="#carouselExampleControls" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span aria-hidden="true"><img src="./icon/left.png" alt=""></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#carouselExampleControls" class="carousel-control-next" role="button" data-slide="next">
+                    <span aria-hidden="true"><img src="./icon/right.png" alt=""></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--slider-->
+    
+    <!--about us-->
+    <hr>
+    <div class="container">
+        <h1>About:</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis deleniti soluta dolores aut. Omnis eum provident nesciunt minima nam. Vel facilis iusto laudantium perferendis labore qui, reprehenderit sit blanditiis, corporis veniam aliquam maxime quas vero corrupti omnis non! Totam distinctio fugit consequatur optio voluptates porro voluptatem ea adipisci consectetur modi fuga praesentium pariatur, ex magnam beatae numquam, aut corporis non nam eos sapiente esse rem? Consequatur quasi doloremque dolore sapiente enim laborum vitae odio dolor, cum, dolorum aperiam provident repellat error odit. Rerum, natus quibusdam quae sed laudantium minima id voluptate deleniti atque at placeat, doloremque est! Aut, error sint.</p>
+    </div>
+    <hr>
+    <!--about us-->
+
+    <!--contact us-->
+    <div class="container">
+        <h1>Contact:</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="usr" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="eml" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="phn" placeholder="Phone">
+                </div>
+                <div class="btn1"><button>Send Message</button></div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <textarea id="comment" rows="5" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact us-->
+
+    <!--footer content-->
+    <div class="container">
+        <div class="row e-grid-footer border-top border-bottom py-sm-4 py-3" style="margin-top: 100px">
+            <div class="col-md-4 offer-footer">
+                <div class="row">
+                    <div class="col-md icon-fort">
+                        <i><img src="./icon/free-shipping.png" alt="" width="70px"></i>
+                    </div>
+                    <div class="col-8 text-form-footer">
+                        <h3>Free Shipping</h3>
+                        <p>on orders over $100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 offer-footer">
+                <div class="row">
+                    <div class="col-md icon-fort">
+                        <i><img src="./icon/fast-delivery.png" alt="" width="70px"></i>
+                    </div>
+                    <div class="col-8 text-form-footer">
+                        <h3>Fast Delivery</h3>
+                        <p>World Wide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 offer-footer">
+                <div class="row">
+                    <div class="col-md icon-fort">
+                        <i><img src="./icon/like.png" alt="" width="70px"></i>
+                    </div>
+                    <div class="col-8 text-form-footer">
+                        <h3>Best Choice</h3>
+                        <p>of product</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="newsletter-w3pvt py-5">
+        <div class="container py-md-5">
+            <form action="#" method="post">
+                <p class="text-center">Subscribe To The Online Shop For Latest Update.</p>
+                <div class="row subscribe-sec">
+                    <div class="co-md-9">
+                        <input type="email" class="form-control" placeholder="Enter Your Email.." name="email">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn subscribe">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--footer content-->
+
+</body>
+</html>
